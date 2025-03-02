@@ -21,3 +21,12 @@ class ToolTip:
             self.tooltip.destroy()
             self.tooltip = None
 
+class SectionFrame(Frame):
+    def __init__(self, master, title, **kwargs):
+        super().__init__(master, **kwargs)
+        self.configure(bg="#ecf0f1", bd=1, relief="solid")
+        self.title_label = Label(self, text=title, font=("Arial", 12, "bold"), bg="#ecf0f1", fg="#2c3e50")
+        self.title_label.pack(fill='x', padx=5, pady=5)
+        self.content_frame = Frame(self, bg="#ecf0f1")
+        self.content_frame.pack(fill='x', padx=5, pady=5)
+
