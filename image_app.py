@@ -707,3 +707,6 @@ class ImageProcessingApp:
         self.update_image_display()
         self.status_label.config(text="ROI cleared")
 
+if __name__ == "__main__":
+    ImageProcessingApp()
+
