@@ -1,0 +1,8 @@
+
+# Local outputs
+output.txt
+image_app.log
+__pycache__/
+
+# Auto-generated entries
+*.py[cod]
