@@ -110,3 +110,17 @@ class SectionFrame(Frame):
         self.content_frame = Frame(self, bg="#ecf0f1")
         self.content_frame.pack(fill='x', padx=5, pady=5)
 
+# Include the image processing functions like loading, saving, transformation, etc.
+class ImageProcessingApp:
+    def __init__(self):
+        self.original_image = None
+        self.processed_image = None
+        self.history = []
+        self.future_history = []
+        self.history_limit = 50
+        self.color_mode = 'grayscale'
+        self.selected_roi = None
+        self.zoom_factor = 1.0
+        self.setup_gui()
+    # Implement other image processing functions as needed
+
