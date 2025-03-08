@@ -124,3 +124,7 @@ class ImageProcessingApp:
         self.setup_gui()
     # Implement other image processing functions as needed
 
+# Add GUI elements like buttons and frames for file control, transformations, etc.
+def _setup_frames(self, left_frame):
+    # Setup file, transform, enhancement, color adjustment frames
+
