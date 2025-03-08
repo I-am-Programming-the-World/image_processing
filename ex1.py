@@ -42,3 +42,24 @@ class SectionFrame(Frame):
         self.title_label.pack(fill='x', padx=5, pady=5)
         self.content_frame = Frame(self, bg="#ecf0f1")
         self.content_frame.pack(fill='x', padx=5, pady=5)
+
+class ImageProcessingApp:
+    def __init__(self):
+        self.original_image = None
+        self.processed_image = None
+        self.history = []
+        self.future_history = []
+        self.history_limit = 50
+        self.color_mode = 'grayscale'
+        self.selected_roi = None
+        self.zoom_factor = 1.0
+        self.setup_gui()
+
+    def setup_gui(self):
+        self.root = Tk()
+        self.root.title("Ultimate Image Processing Studio")
+        self.root.geometry("1200x1000")
+        self.root.resizable(True, True)
+        self.root.grid_rowconfigure(1, weight=1)
+        self.root.grid_columnconfigure(0, weight=1, minsize=300)
+        self.root.grid_columnconfigure(1, weight=3)
