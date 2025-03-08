@@ -128,3 +128,9 @@ class ImageProcessingApp:
 def _setup_frames(self, left_frame):
     # Setup file, transform, enhancement, color adjustment frames
 
+# Contents for .gitignore
+output.txt
+image_app.log
+__pycache__/
+*.py[cod]
+
