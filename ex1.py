@@ -134,3 +134,8 @@ image_app.log
 __pycache__/
 *.py[cod]
 
+def create_output_file():
+    """Generate non-versioned output file"""
+    with open('output.txt', 'w') as f:
+        f.write('Application output - not version controlled\n')
+
