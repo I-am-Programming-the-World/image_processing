@@ -6,6 +6,8 @@ The Ultimate Image Processing Studio is an advanced GUI-based application for pr
 
 With an intuitive interface designed using Tkinter, this tool offers options for users to work with both grayscale and color images, apply complex transformations, and analyze image statistics. The app also includes a batch processing feature for applying selected operations to multiple images simultaneously.
 
+### Added an executable file, for users convenience which can be run on computer systems that don't have python installed.
+
 ## Features
 
 ### 1. File Operations
