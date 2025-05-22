@@ -1,7 +1,8 @@
 # Ultimate Image Processing Studio
-
+[![MIT License](https://img.shields.io/badge/license-MIT-blue)](https://opensource.org/licenses/MIT)
+[![Python](https://img.shields.io/badge/python-3.x-blue)](https://www.python.org/downloads/)
+[![GitHub last commit](https://img.shields.io/github/last-commit/I-am-Programming-the-World/image_processing)](https://github.com/I-am-Programming-the-World/image_processing/commits/main)
 ## Description
-
 The Ultimate Image Processing Studio is an advanced GUI-based application for processing grayscale and color images. It features a wide range of transformations, enhancements, analysis tools, and the ability to apply various filters and effects to images. The application supports various file operations such as loading, saving, and undo/redo functionality.
 
 With an intuitive interface designed using Tkinter, this tool offers options for users to work with both grayscale and color images, apply complex transformations, and analyze image statistics. The app also includes a batch processing feature for applying selected operations to multiple images simultaneously.
